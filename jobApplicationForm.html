@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Info 101 TA Application</title>
+</head>
+<body style="text-align: center; width: 800px;line-height: 30px;">
+
+<h2 style="border-bottom: black solid 5px;">TA Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+<div style="border-bottom: gray solid 2px; padding-bottom: 10px">
+	<h3 style="font-weight: bold;"><u>Create an Account</u></h3>
+	<div style="text-align: left;">
+		Username: <input type="text" name="username"><br>
+		Password: <input type="password" name="password"><br>
+	</div>
+</div>
+
+<div style="border-bottom: gray solid 2px; padding-bottom: 10px">
+	<h3 style="font-weight: bold;"><u>Basic Information</u></h3>
+	<div style="text-align: left;">
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		UW Netid: <input type="text" name="uwid"><br>
+		Student Number: <input type="text" name="studentid"><br>
+		Grade Standing: 
+		<select name="grade">
+			<option value="">Select your grade</option>
+			<option value="freshman">Freshman</option>
+			<option value="sophomore">Sophomore</option>
+			<option value="junior">Junior</option>
+			<option value="senior">Senior</option>
+			<option value="other">Graduate or higher</option>
+		</select>
+	</div>
+</div>
+
+<div style="border-bottom: gray solid 2px; padding-bottom: 10px">
+	<h3 style="font-weight: bold;"><u>Previous Courses</u></h3>
+	<div style="text-align: left;">
+		Have you taken Info 101? <br>
+		<input type="radio" name="taken101" value="yes">Yes<br>
+		<input type="radio" name="taken101" value="no">No<br>
+		What is your current overall GPA? <br>
+		<input type="text" name="gpa-total"><br>
+		What is your GPA in INFO 101? <br>
+		<input type="text" name="gpa-info"><br>
+		Please select ALL other courses listed below you have taken:<br>
+		<input type="checkbox" name="courses-taken" value="cse142"> CSE 142
+		<input type="checkbox" name="courses-taken" value="cse143"> CSE 143 
+		<input type="checkbox" name="courses-taken" value="cse154"> CSE 154 <br>
+		<input type="checkbox" name="courses-taken" value="info102"> INFO 102
+		<input type="checkbox" name="courses-taken" value="info200"> INFO 200
+		<input type="checkbox" name="courses-taken" value="info201"> INFO 201 <br>
+		<input type="checkbox" name="courses-taken" value="com200"> INFO 200
+		<input type="checkbox" name="courses-taken" value="com220"> INFO 220
+		<input type="checkbox" name="courses-taken" value="com233"> INFO 233 <br>
+	</div>
+</div>
+
+<div style="border-bottom: gray solid 2px; padding-bottom: 10px">
+	<h3 style="font-weight: bold;"><u>Personal Statements</u></h3>
+	<div style="text-align: left;">
+		Why would you like to become an INFO101 TA?<br>
+		<textarea name="whyTA" rows=10 style="width:700px;overflow: hidden"></textarea><br>
+		Explain one of your advantages that makes you competitive for TA:<br>
+		<textarea name="advantage" rows=10 style="width:700px;overflow: hidden"></textarea>
+	</div>
+</div>
+
+<div style="border-bottom: gray solid 2px; padding-bottom: 10px">
+	<h3 style="font-weight: bold;"><u>Submission</u></h3>
+	<div style="text-align: center;">
+		By clicking the submit button below, I certify that all information provided above is correct.<br>
+		<input type="submit" value="Submit form">
+	</div>
+</div>
+
+
+</form>
+</body>
+</html>
