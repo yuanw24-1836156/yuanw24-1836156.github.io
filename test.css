@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+h3{
+    color: #ffbc00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;    
+}
+
+li{
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#Header{
+    border: solid 8px black;
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #8E41D5;
+}
+
+#Header h1{
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #ffbc00;
+    font-weight: bold;
+    
+}
+
+#LeftNav{
+    border: solid 8px black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    float: left;
+    padding-bottom: 8px;
+    background-color: #8E41D5;
+}
+
+#LeftNav img{
+
+}
+
+#LeftNav ul{
+
+}
+
+#LeftNav h3{
+
+}
+
+#Content{
+    border: solid 8px black;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #8E41D5;
+}
+
+#Footer{
+    border: solid 8px black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8E41D5;
+}
